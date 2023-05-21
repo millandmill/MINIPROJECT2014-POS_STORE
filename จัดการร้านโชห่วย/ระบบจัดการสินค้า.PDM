@@ -1,0 +1,148 @@
+[Root]
+Most Recent Package=โปรแกรมติดตั้งร้านโชห่วย
+
+
+[Package|โปรแกรมติดตั้งร้านโชห่วย|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Program Files\จัดการร้านโชห่วย
+
+[Package|โปรแกรมติดตั้งร้านโชห่วย|Configure DAO ISAMs]
+Applicable=Yes
+Jet 2.x=Yes
+
+[Package|โปรแกรมติดตั้งร้านโชห่วย|Configure DAO ODBC]
+JetWorkspace=Yes
+ODBCDirect=Yes
+
+[Package|โปรแกรมติดตั้งร้านโชห่วย|Files Found]
+
+[Package|โปรแกรมติดตั้งร้านโชห่วย|Files Released]
+
+[Package|โปรแกรมติดตั้งร้านโชห่วย|Missing Dependency Information]
+C:\Program Files (x86)\Microsoft Silverlight\5.1.20513.0\npctrl.dll=
+C:\Windows\SysWOW64\MSDBRPT.DLL=
+C:\Windows\SysWOW64\MSSTDFMT.DLL=
+C:\Program Files (x86)\Common Files\System\ado\msado25.tlb=
+C:\Program Files (x86)\Microsoft Office\Office12\MSACC.OLB=
+
+[Package|โปรแกรมติดตั้งร้านโชห่วย|Out-of-Date Dependency Information]
+C:\Windows\SysWOW64\comdlg32.ocx=
+C:\Windows\SysWOW64\scrrun.dll=
+C:\Windows\SysWOW64\MSRDO20.DLL=
+
+[Package|โปรแกรมติดตั้งร้านโชห่วย|Files Added]
+
+[Package|โปรแกรมติดตั้งร้านโชห่วย|Files Removed]
+
+[Package|โปรแกรมติดตั้งร้านโชห่วย|Files In Project]
+C:\Users\Mill\Desktop\New folder (9)\goods\ระบบจัดการสินค้า.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files (x86)\Microsoft Office\Office12\MSACC.OLB=Yes
+C:\Program Files (x86)\Common Files\System\ado\msado25.tlb=Yes
+C:\Program Files (x86)\Common Files\microsoft shared\DAO\DAO350.DLL=Yes
+C:\Windows\System32\MSJET35.DLL=Yes
+C:\Windows\System32\MSJTER35.DLL=Yes
+C:\Windows\System32\MSJINT35.DLL=Yes
+C:\Windows\System32\vbajet32.dll=Yes
+C:\Windows\System32\expsrv.dll=Yes
+C:\Windows\System32\MSRD2X35.DLL=Yes
+C:\Windows\System32\MSREPL35.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\Windows\System32\VB5DB.DLL=Yes
+C:\Windows\SysWOW64\MSBIND.DLL=Yes
+C:\Windows\SysWOW64\MSSTDFMT.DLL=Yes
+C:\Program Files (x86)\Common Files\DESIGNER\MSDERUN.DLL=Yes
+C:\Windows\SysWOW64\MSDBRPT.DLL=Yes
+C:\Windows\SysWOW64\MSRDO20.DLL=Yes
+C:\Windows\SysWOW64\RDOCURS.DLL=Yes
+C:\Windows\SysWOW64\scrrun.dll=Yes
+C:\Windows\SysWOW64\msvcrt.dll=Yes
+C:\Windows\SysWOW64\MSADODC.OCX=Yes
+C:\Windows\SysWOW64\MSDATGRD.OCX=Yes
+C:\Program Files (x86)\Microsoft Silverlight\5.1.20513.0\npctrl.dll=Yes
+C:\Windows\SysWOW64\comdlg32.ocx=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|โปรแกรมติดตั้งร้านโชห่วย|Configure Registry Files]
+Applicable=No
+
+[Package|โปรแกรมติดตั้งร้านโชห่วย|Configure Remote Servers]
+Applicable=No
+
+[Package|โปรแกรมติดตั้งร้านโชห่วย|Install Locations]
+C:\Users\Mill\Desktop\New folder (9)\goods\ระบบจัดการสินค้า.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Office\Office12\MSACC.OLB=$(WinSysPath)
+C:\Program Files (x86)\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\Program Files (x86)\Common Files\microsoft shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\Windows\System32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\vbajet32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\expsrv.dll=$(WinSysPathSysFile)
+C:\Windows\System32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB5DB.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\MSBIND.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\MSSTDFMT.DLL=$(WinSysPath)
+C:\Program Files (x86)\Common Files\DESIGNER\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Windows\SysWOW64\MSDBRPT.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\MSRDO20.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\RDOCURS.DLL=$(WinSysPath)
+C:\Windows\SysWOW64\scrrun.dll=$(WinSysPath)
+C:\Windows\SysWOW64\msvcrt.dll=$(WinSysPathSysFile)
+C:\Windows\SysWOW64\MSADODC.OCX=$(WinSysPath)
+C:\Windows\SysWOW64\MSDATGRD.OCX=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Silverlight\5.1.20513.0\npctrl.dll=$(WinSysPath)
+C:\Windows\SysWOW64\comdlg32.ocx=$(WinSysPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|โปรแกรมติดตั้งร้านโชห่วย|Configure Shared Files]
+Applicable=Yes
+C:\Users\Mill\Desktop\New folder (9)\goods\ระบบจัดการสินค้า.exe=No
+C:\Program Files (x86)\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|โปรแกรมติดตั้งร้านโชห่วย|Distribution]
+Type=single
+Size=1.44 MB
+Title=ระบบจัดการร้านโชห่วย
+
+[Package|โปรแกรมติดตั้งร้านโชห่วย|IconGroups]
+Group0=ระบบจัดการร้านโชห่วย
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|โปรแกรมติดตั้งร้านโชห่วย|ระบบจัดการร้านโชห่วย]
+Icon1=ระบบจัดการสินค้า.exe
+Title1=ระบบจัดการร้านโชห่วย
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|โปรแกรมติดตั้งร้านโชห่วย|Package]
+PackageFolder=C:\Program Files\จัดการร้านโชห่วย
+ProjectFolder=C:\Users\Mill\Desktop\New folder (9)\goods
+ServerSideCab=
+File1=C:\Program Files\จัดการร้านโชห่วย\setup.exe
+File2=C:\Program Files\จัดการร้านโชห่วย\Setup.Lst
+File3=C:\Program Files\จัดการร้านโชห่วย\ระบบจัดการสินค้า.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
